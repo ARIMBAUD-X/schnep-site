@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html {
+            background-color: black;
+            color: white;
+            font-family: serif;
+            font-weight: lighter;
+        }
+        h1, b {
+            color: inherit;
+            font-weight: inherit;
+        }
+        #outer {
+            display: flex;
+            justify-content: center;
+            padding-top: 18%;
+        }
+        @keyframes hue_rotate_ani {
+            0%   { filter: hue-rotate(45deg) drop-shadow(2px 4px 1px white); }
+            15%  { filter: hue-rotate(45deg) drop-shadow(2px 4px 8px white); }
+            27%  { filter: hue-rotate(45deg) drop-shadow(2px 4px 36px white); }
+            40%  { filter: hue-rotate(45deg) drop-shadow(2px 4px 16px white); }
+            52%  { filter: hue-rotate(45deg) drop-shadow(2px 4px 8px white); }
+            65%  { filter: hue-rotate(45deg) drop-shadow(2px 4px 1px white); }
+            84%  { filter: hue-rotate(45deg) drop-shadow(2px 4px 240px white); }
+            90%  { filter: hue-rotate(45deg) drop-shadow(2px 4px 164px white); }
+            100% { filter: hue-rotate(45deg) drop-shadow(2px 4px 1px white); }
+        }
+        #inner {
+            animation: hue_rotate_ani 35.5s infinite;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            color: white;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="inner">
+            <h1><a href="index">site:schnep;</a></h1>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/819618181&color=%23e9edee&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" autoplay></iframe>
+            <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                <a href="https://soundcloud.com/yoshioojima" title="Yoshio Ojima" target="_blank" style="color: #cccccc; text-decoration: none;">Yoshio Ojima</a> · <a href="https://soundcloud.com/yoshioojima/glass-chattering-1" title="Glass Chattering" target="_blank" style="color: #cccccc; text-decoration: none;">Glass Chattering</a>
+            </div>
+        </div>
+    </div>
+    <script src="" async defer></script>
+</body>
+</html>
